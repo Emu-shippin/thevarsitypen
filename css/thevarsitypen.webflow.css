@@ -1,0 +1,3760 @@
+:root {
+  --dark-green-2: #145c0f;
+  --linen: #edeae3;
+  --green-yellow: #bce81f;
+  --yellow-green: #8cd911;
+  --sandy-brown: #e0c946;
+  --olive-drab: #61ae24;
+  --forest-green: #32742c;
+  --gold: #d0d102;
+  --forest-green-2: #1f6b19;
+  --dark-slate-gray: #3b432f;
+  --dark-green: #154312;
+  --dark-olive-green: #5a6649e0;
+  --light-goldenrod-yellow: #f0f5cf;
+  --gainsboro: #dfdfcb;
+  --linen-2: #f2f2e7;
+  --dark-slate-gray-2: #404041;
+  --dim-gray: #565656;
+  --white-smoke: #f3f3f3;
+  --yellow-green-2: #72c72c;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+h1 {
+  color: #1f6b19;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-family: Roboto, sans-serif;
+  font-size: 90px;
+  font-weight: 100;
+  line-height: 89px;
+}
+
+h2 {
+  color: #32742c;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 52px;
+}
+
+h3 {
+  color: #32742c;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+h4 {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h5 {
+  color: #61ae24;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+h6 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+p {
+  margin-bottom: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+a {
+  color: #61ae24;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #404041;
+  background-color: #0000;
+  font-weight: 300;
+}
+
+.intro-container {
+  text-align: center;
+  padding: 5px 30px 140px;
+}
+
+.top-bar {
+  text-align: center;
+  background-color: #1f6b19;
+  padding-top: 165px;
+}
+
+.contact-text {
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.nav-link {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #0000;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all .2s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #3b432f;
+  font-weight: 300;
+}
+
+.nav-link.booking-button {
+  background-color: #154312;
+}
+
+.nav-link.booking-button:hover {
+  background-color: #3b432f;
+}
+
+.nav-link.booking-button.w--current {
+  color: #fff;
+}
+
+.hero-section {
+  background-color: #f2f2e7;
+  background-image: url('../images/Education_pattern-2.png');
+  height: 765px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.nav-left {
+  z-index: 5;
+  text-align: right;
+  width: 40%;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-right {
+  z-index: 5;
+  text-align: left;
+  width: 40%;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-centered {
+  background-color: #61ae24;
+}
+
+.nav-logo-center {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+}
+
+.logo-centered, .logo-centered:hover {
+  background-color: #0000;
+}
+
+.logo-center-absolute {
+  z-index: 2;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+.typewriter {
+  z-index: 2;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+}
+
+.intro-div {
+  background-color: #f2f2e7;
+  padding-top: 15px;
+  padding-bottom: 55px;
+}
+
+.intro-subhead {
+  color: #61ae24;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.services-section {
+  background-color: #404041;
+  padding-top: 195px;
+  padding-bottom: 200px;
+}
+
+.services-container-top {
+  padding-top: 55px;
+}
+
+.service-circle-div {
+  text-align: center;
+  background-color: #1f6b19;
+  border: 10px solid #61ae24;
+  border-radius: 100%;
+  margin: 20px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  transition: all .2s;
+}
+
+.service-circle-div:hover {
+  background-color: #404041;
+  border-color: #61ae24;
+}
+
+.service-circle-div._2 {
+  background-color: #61ae24;
+  border-color: #1f6b19;
+}
+
+.service-circle-div._2:hover {
+  background-color: #404041;
+  border-color: #61ae24;
+}
+
+.services-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 29px;
+}
+
+.services-link:hover {
+  color: #fff;
+  background-color: #0000;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.services-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.white {
+  color: #fff;
+  line-height: 55px;
+}
+
+.footer {
+  background-color: #565656;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.copyright {
+  color: #313131;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+}
+
+.footer-link {
+  color: #fff;
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-link:hover {
+  color: #8cd911;
+  background-color: #0000;
+  font-weight: 400;
+}
+
+.footer-list {
+  padding-top: 8px;
+}
+
+.footer-about-div {
+  color: #fff;
+  padding-right: 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.link {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: #8cd911;
+  background-color: #0000;
+  font-weight: 400;
+}
+
+.footer-about-p {
+  letter-spacing: 1px;
+  padding-top: 18px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.nav-menu-open {
+  float: none;
+}
+
+.footer-row {
+  padding-top: 25px;
+}
+
+.services-hero {
+  padding-top: 160px;
+  padding-bottom: 125px;
+}
+
+.services-intro {
+  text-align: center;
+}
+
+.services-anchor-links {
+  color: #61ae24;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-top: 1px dotted #565656;
+  border-bottom: 1px dotted #565656;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.services-intro-p {
+  text-align: left;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.admission-essays-section {
+  background-color: #f2f2e7;
+  padding: 35px 50px 50px;
+}
+
+.creative-writing-section {
+  background-color: #404041;
+  padding-top: 85px;
+  padding-bottom: 140px;
+}
+
+.h2-white {
+  color: #fff;
+  line-height: 60px;
+}
+
+.editing-section {
+  background-color: #32742c;
+  padding-top: 85px;
+  padding-bottom: 130px;
+}
+
+.sessions-p {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.anchor-links {
+  color: #61ae24;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.anchor-links:hover {
+  color: #404041;
+  background-color: #0000;
+  font-weight: 400;
+}
+
+.copywriting-section {
+  padding-top: 85px;
+  padding-bottom: 125px;
+}
+
+.academic-papers-section {
+  background-color: #f2f2e7;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #32742c;
+  border: 3px solid #61ae24;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  transition: all .3s;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #61ae24;
+}
+
+.button.about {
+  margin-top: 10px;
+}
+
+.button.about:hover {
+  font-weight: 400;
+}
+
+.button.call-to-action {
+  padding: 15px 50px;
+  font-size: 18px;
+}
+
+.button.call-to-action:hover {
+  font-weight: 400;
+}
+
+.session-h2 {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.faqs-h1 {
+  color: #32742c;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 90px;
+  font-weight: 100;
+  line-height: 90px;
+}
+
+.faqs-p {
+  color: #404041;
+  text-align: left;
+  border-top: 1px dotted #404041;
+  border-bottom: 1px dotted #404041;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.faqs-p.answers {
+  border-top: 1px #000;
+  border-bottom: 1px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.faqs-questions {
+  text-align: center;
+}
+
+.faqs-section {
+  padding-top: 160px;
+  padding-bottom: 110px;
+}
+
+.faqs-answers {
+  margin-top: 60px;
+}
+
+.faqs-a {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.faqs-a:hover {
+  color: #404041;
+  background-color: #0000;
+}
+
+.faqs-questions-a {
+  color: #404041;
+  text-align: left;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.faqs-questions-a:hover {
+  color: #61ae24;
+  background-color: #0000;
+}
+
+.footer-contact-section {
+  background-color: #404041;
+  padding-top: 150px;
+  padding-bottom: 160px;
+}
+
+.faqs-form {
+  color: #fff;
+  background-color: #0000;
+  border-radius: 20px;
+  margin-top: 65px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.submit-button {
+  background-color: #61ae24;
+  border-radius: 9px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 300;
+  transition: all .2s;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background-color: #32742c;
+  font-weight: 300;
+}
+
+.submit-button.payment {
+  padding: 5px 50px;
+}
+
+.submit-button.payment:hover {
+  color: #fff;
+}
+
+.submit-button.review-button {
+  padding: 5px 50px;
+}
+
+.submit-button.review-button:hover {
+  color: #fff;
+}
+
+.submit-button.session, .submit-button.purchase-add-on {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form-text-field {
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.form-text-field.message {
+  min-height: 200px;
+}
+
+.faqs-form-subhead {
+  color: #61ae24;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.form-label {
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.back-to-top {
+  z-index: 5;
+  color: #fff;
+  text-align: center;
+  background-color: #61ae24;
+  border-radius: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  transition: all .2s;
+  position: relative;
+  top: 20px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background-color: #32742c;
+}
+
+.back-to-top-section {
+  text-align: center;
+  background-color: #404041;
+}
+
+.desk-with-books-img {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.admission-h3 {
+  color: #61ae24;
+  margin-top: 50px;
+}
+
+.about-section {
+  padding-top: 160px;
+  padding-bottom: 115px;
+}
+
+.about-p {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.about-row {
+  margin-top: 70px;
+}
+
+.about-box-left, .about-box-right {
+  width: 50%;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.headshot {
+  border-radius: 10px;
+}
+
+.about-col-left {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.services-list {
+  text-align: left;
+  padding-left: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.services-div {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.gray {
+  color: #333;
+}
+
+.credentials-div {
+  margin-top: 80px;
+  padding-top: 20px;
+}
+
+.credentials-p {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.icon-div {
+  text-align: center;
+}
+
+.icon-row {
+  border-top: 1px dotted #000;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.services-container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.services-h2 {
+  color: #8cd911;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.editing-proofreading-div {
+  padding-left: 10px;
+}
+
+.grammar-div {
+  margin-top: 50px;
+  padding-left: 10px;
+}
+
+.editing-row {
+  margin-top: 60px;
+}
+
+.editing-proofreading-img {
+  padding-right: 10px;
+}
+
+.services-h6-white {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.services-p {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.services-bottom-img {
+  margin-bottom: 35px;
+}
+
+.services-bottom-row {
+  margin-top: 60px;
+}
+
+.services-div-1 {
+  margin-top: 20px;
+}
+
+.services-div-2 {
+  margin-top: 30px;
+}
+
+.services-div-3 {
+  margin-top: 40px;
+}
+
+.services-bottom-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.admission-essays-intro-p {
+  color: #fff;
+  background-image: url('../images/chalkboard-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 665px;
+  margin-top: 35px;
+  margin-bottom: 90px;
+  padding-top: 145px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.editing-proofreading-p {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.about-section-2 {
+  background-color: #e9e9d6;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+.about-section-3 {
+  padding-bottom: 130px;
+}
+
+.experience-section {
+  background-color: #404041;
+  flex-direction: column;
+  display: flex;
+}
+
+.nav-scroll {
+  text-align: center;
+  background-color: #62ad24e6;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-scroll-a {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nav-scroll-a:hover {
+  color: #fff;
+  background-color: #3b432f;
+  font-weight: 400;
+}
+
+.nav-scroll-a.w--current {
+  color: #fff;
+}
+
+.nav-scroll-a.book-session-button {
+  background-color: #154312;
+}
+
+.nav-scroll-a.book-session-button:hover {
+  background-color: #3b432f;
+}
+
+.nav-scroll-a.book-session-button.w--current {
+  color: #fff;
+}
+
+.fees-section {
+  padding-top: 160px;
+  padding-bottom: 115px;
+}
+
+.fees-circle-left {
+  text-align: center;
+  background-color: #32742c;
+  border: 9px solid #61ae24;
+  border-radius: 100%;
+  padding: 90px 55px;
+  display: inline-block;
+}
+
+.price-header {
+  color: #fff;
+  letter-spacing: -3px;
+  margin-bottom: 49px;
+  padding-top: 39px;
+  font-family: Montserrat, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.price-p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.price-row {
+  margin-top: 60px;
+}
+
+.price-p-small {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.fees-circle-right {
+  text-align: center;
+  background-color: #404041;
+  border: 10px solid #61ae24;
+  border-radius: 100%;
+  margin-left: 30px;
+  padding: 80px 50px;
+  display: inline-block;
+}
+
+.fees-and-policies {
+  margin-top: 30px;
+}
+
+.policies-section {
+  background-color: #f2f2e7;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.policies-div {
+  padding-right: 55px;
+}
+
+.policies-p-small {
+  padding-right: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.policies-p {
+  text-align: left;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.policies-p.grey {
+  color: #9c9c9c;
+  margin-top: 12px;
+}
+
+.fees-container {
+  text-align: center;
+}
+
+.services-h1 {
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  font-family: Roboto, sans-serif;
+  font-size: 90px;
+  font-weight: 100;
+  line-height: 90px;
+}
+
+.fees-and-policies-button {
+  text-align: left;
+  justify-content: center;
+  margin-top: 45px;
+  display: flex;
+}
+
+.contact-info-a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact-info-a:hover {
+  color: #949494;
+  font-weight: 300;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.contact-icons {
+  margin-left: 35px;
+  margin-right: 15px;
+}
+
+.footer-a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-a:hover {
+  color: #949494;
+}
+
+.admission-essay-button, .academic-papers-button {
+  margin-top: 20px;
+}
+
+.editing-button {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.everything-else-button {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.booking-section {
+  background-color: #f2f2e7;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.forms-h1 {
+  margin-bottom: 18px;
+}
+
+.booking-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.booking-p {
+  text-align: left;
+  margin-top: 75px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-button {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.discount-div {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin-top: 90px;
+  padding: 15px 30px 30px;
+}
+
+.discount-p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.booking-instructions {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.booking-instructions-col-left {
+  padding-right: 76px;
+}
+
+.booking-h3 {
+  font-size: 30px;
+}
+
+.form-list {
+  border-bottom: 1px dotted #000;
+  margin-top: 23px;
+  margin-bottom: 45px;
+  padding-bottom: 40px;
+}
+
+.mouse-text {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.booking-h4 {
+  color: #61ae24;
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.booking-text {
+  font-size: 16px;
+}
+
+.booking-text.grey {
+  color: #9c9c9c;
+}
+
+.booking-instructions-col-right {
+  padding-right: 70px;
+}
+
+.discount-h2 {
+  color: #61ae24;
+  text-align: left;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.form {
+  background-color: #f3f3f3;
+  padding-top: 65px;
+  padding-bottom: 110px;
+}
+
+.copywriting-col-left {
+  text-align: right;
+}
+
+.copywriting-col-right {
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.booking-img {
+  margin-top: 75px;
+}
+
+.calendar-img {
+  width: 350px;
+}
+
+.form-container {
+  padding-top: 50px;
+}
+
+.cognito {
+  margin-top: 65px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+}
+
+.booking-payment-section {
+  border-bottom: 1px dotted #000;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.copywriting-row {
+  margin-top: 30px;
+}
+
+.experience-1 {
+  border-right: 1px solid #000;
+  justify-content: center;
+  align-self: stretch;
+  max-width: 33.33%;
+  display: flex;
+}
+
+.experience-1.v2 {
+  border-right-style: none;
+}
+
+.experience-1.v3 {
+  border-left: 1px solid #000;
+  border-right-style: none;
+}
+
+.experience-2 {
+  background-color: #154312;
+  padding: 45px 145px;
+}
+
+.experience-3 {
+  background-color: #145c0f;
+  padding: 45px 145px;
+}
+
+.experience-number-1 {
+  float: right;
+  background-color: var(--dark-green-2);
+  text-align: center;
+  border-radius: 100%;
+  max-width: 70px;
+  margin-bottom: 20px;
+  padding: 25px 25px 25px 23px;
+  font-family: Roboto, sans-serif;
+}
+
+.num-block {
+  color: #61ae24;
+  min-height: 50px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.experience-col-left {
+  padding-right: 25px;
+}
+
+.number-2 {
+  color: #e9e9d6;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.number-3 {
+  color: #145c0f;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.experience-col-middle {
+  padding-top: 22px;
+  padding-left: 15px;
+}
+
+.experience-col-top, .experience-col-bottom {
+  padding-left: 15px;
+}
+
+.reviews-section {
+  background-color: #f3f3f3;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+.reviews-p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.reviews {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+
+.philosophy-p {
+  margin-top: 45px;
+}
+
+.admission-quote-p {
+  font-size: 18px;
+}
+
+.admission-block-quote {
+  color: #8cd911;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 80px;
+  padding-right: 102px;
+  font-family: Roboto, sans-serif;
+  line-height: 30px;
+}
+
+.mouse-p {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.chalkboard-copy {
+  padding-left: 130px;
+  padding-right: 119px;
+}
+
+.booking-h3-green {
+  color: #32742c;
+  font-size: 25px;
+}
+
+.in-person-session {
+  margin-top: 90px;
+}
+
+.pricing-copy {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.pricing-col-left {
+  padding-right: 115px;
+}
+
+.pricing-h1 {
+  color: #32742c;
+  text-align: left;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 33px;
+}
+
+.pricing-h1.grey {
+  color: #9c9c9c;
+}
+
+.review-payment-section {
+  border-bottom: 1px dotted #000;
+  margin-bottom: 45px;
+  padding-bottom: 45px;
+}
+
+.payment-button {
+  margin-top: 25px;
+}
+
+.payment-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-h4 {
+  color: #61ae24;
+  font-weight: 500;
+}
+
+.payment-h4.grey {
+  color: #9c9c9c;
+}
+
+.payment-col-right {
+  padding-left: 25px;
+}
+
+.session-text-box {
+  margin-top: 20px;
+}
+
+.pricing-col-right {
+  padding-right: 175px;
+}
+
+.review-price-h2 {
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.session-button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.disclaimer-and-privacy {
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+.privacy-section {
+  margin-top: 75px;
+}
+
+.disclaimer-p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.school-admission-h3 {
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 7px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.writing-tutoring {
+  border-top: 1px dotted #000;
+  margin-top: 90px;
+}
+
+.writing-tutoring-button {
+  margin-top: 20px;
+}
+
+.academic-papers {
+  border-top: 1px dotted #000;
+}
+
+.about-lit-fellow-section {
+  background-color: #333;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 65px;
+  display: flex;
+}
+
+.lit-fellow-left {
+  width: 30%;
+}
+
+.lit-fellow-right {
+  width: 70%;
+}
+
+.lit-fellow-h1 {
+  color: #f3f3f3;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.lit-fellow-container {
+  align-items: center;
+  display: flex;
+}
+
+.lit-fellow-p {
+  color: #f3f3f3;
+  margin-top: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.row, .row-2, .row-3 {
+  align-items: center;
+  display: flex;
+}
+
+.sub-title-credentials {
+  margin-top: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.faq-question-text {
+  color: #32742c;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.faq-question-div {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answers-div {
+  padding-bottom: 25px;
+}
+
+.faq-answer-text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.plus-sign {
+  font-family: Roboto, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.faqs-question-div-2 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-2 {
+  padding-bottom: 25px;
+}
+
+.plus-minus-div {
+  color: #32742c;
+  align-items: center;
+  display: flex;
+}
+
+.minus {
+  font-family: Roboto, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.faq-question-div-3 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-3 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-4 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-4 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-5 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-5 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-6 {
+  border-top: 1px solid #72c72c;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-6 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-7 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-7 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-8 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-8 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-9 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.div-block, .faq-answer-div-9 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-10 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-10 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-11 {
+  border-top: 1px solid #72c72c;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-11 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-12 {
+  border-top: 1px solid #72c72c;
+  border-radius: 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-12 {
+  padding-bottom: 25px;
+}
+
+.faq-question-div-13 {
+  border-top: 1px solid #72c72c;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.faq-answer-div-13 {
+  padding-bottom: 25px;
+}
+
+.new-cred-div {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  display: flex;
+}
+
+.job-div-container {
+  text-align: center;
+  flex: 1;
+  align-self: flex-start;
+  padding: 30px 20px;
+}
+
+.cred-grid-wrapper {
+  grid-column-gap: 11px;
+  grid-row-gap: 12px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  place-items: center;
+  display: grid;
+}
+
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.exp-container {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 90px;
+  display: flex;
+}
+
+.exp-block {
+  text-align: center;
+  flex-direction: column;
+  flex: 0 auto;
+  order: 1;
+  align-self: stretch;
+  align-items: center;
+  max-width: 90%;
+  padding: 25px;
+  display: flex;
+}
+
+.text-block {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.exp-num-block {
+  background-color: var(--linen);
+  border-radius: 20px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  max-width: 75px;
+  margin-bottom: 40px;
+}
+
+.text-block-2 {
+  padding: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.grid {
+  grid-template-rows: auto;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-auto-flow: row;
+  max-width: 80%;
+  margin-top: 45px;
+}
+
+.unavailable-tag {
+  background-color: #9c9c9c;
+  border-radius: 9px;
+  width: 50%;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.grid-2 {
+  grid-template-rows: auto;
+}
+
+.pricing-grid {
+  grid-column-gap: 50px;
+  border-bottom: 1px dotted #000;
+  grid-template-rows: auto;
+  margin-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pricing-div-block {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 11px 11px 0;
+  display: flex;
+}
+
+.grid-3 {
+  grid-template-rows: auto;
+}
+
+.book-session-payment {
+  grid-column-gap: 51px;
+  grid-template-rows: auto;
+  margin-bottom: 40px;
+}
+
+.book-session-covid {
+  text-transform: uppercase;
+  background-color: #9c9c9c;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  position: absolute;
+  top: 1615.25px;
+}
+
+.book-session-covid.fees {
+  width: 100px;
+  margin-left: 0;
+  position: absolute;
+  top: 628px;
+}
+
+.in-person-div-block {
+  flex-direction: column;
+  display: flex;
+}
+
+.fees-covid-div {
+  width: 100%;
+  display: flex;
+}
+
+html.w-mod-js [data-ix="display-none"] {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    margin-bottom: 18px;
+    font-size: 75px;
+  }
+
+  .intro-container {
+    padding-top: 25px;
+  }
+
+  .top-bar {
+    padding-top: 185px;
+  }
+
+  .hero-section {
+    height: 650px;
+    padding-top: 10px;
+  }
+
+  .typewriter {
+    top: 520px;
+  }
+
+  .intro-div {
+    padding-top: 20px;
+  }
+
+  .services-section {
+    padding-top: 190px;
+    padding-bottom: 125px;
+  }
+
+  .services-container-top {
+    padding-top: 30px;
+  }
+
+  .service-circle-div {
+    margin: 9px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+  }
+
+  .services-link {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .footer-link {
+    letter-spacing: 0;
+  }
+
+  .footer-about-div {
+    padding-right: 18px;
+  }
+
+  .footer-about-p {
+    padding-top: 10px;
+    padding-left: 16px;
+  }
+
+  .nav-condensed {
+    z-index: 1000;
+    background-color: #61ae24;
+  }
+
+  .menu-button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .menu-button:hover {
+    color: #fff;
+    background-color: #3b432f;
+  }
+
+  .menu-button.w--open {
+    background-color: #3b432f;
+  }
+
+  .nav-menu-open {
+    text-align: left;
+    background-color: #3a422ed9;
+  }
+
+  .nav-link-open {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+  }
+
+  .nav-link-open:hover {
+    color: #3b432f;
+    background-color: #f2f2e6;
+    font-weight: 400;
+  }
+
+  .nav-link-open.book-session-button {
+    background-color: #61ae24;
+  }
+
+  .nav-link-open.book-session-button:hover {
+    background-color: #f2f2e7;
+  }
+
+  .nav-link-open.book-session-button.w--current {
+    color: #fff;
+  }
+
+  .nav-link-open.book-session-button.w--current:hover {
+    color: #404041;
+    font-weight: 400;
+  }
+
+  .nav-logo-mobile-link {
+    z-index: 1100;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-logo-mobile-link:hover {
+    background-color: #0000;
+  }
+
+  .services-hero {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .admission-essays-section {
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .creative-writing-section, .editing-section, .copywriting-section {
+    padding-top: 65px;
+    padding-bottom: 85px;
+  }
+
+  .academic-papers-section {
+    padding-top: 0;
+  }
+
+  .faqs-section {
+    padding: 100px 35px 80px;
+  }
+
+  .footer-contact-section {
+    padding-top: 40px;
+    padding-bottom: 85px;
+  }
+
+  .faqs-form {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .desk-with-books-img {
+    margin-top: 75px;
+  }
+
+  .about-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  .about-col-right {
+    padding-right: 20px;
+  }
+
+  .about-col-left {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .credentials-div {
+    margin-top: 50px;
+  }
+
+  .credentials-p {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 150px;
+  }
+
+  .icon-row {
+    border-top: 1px #000;
+    margin-top: 0;
+  }
+
+  .services-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .editing-proofreading-div, .grammar-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .editing-proofreading-img {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .admission-essays-intro-p {
+    background-position: 50%;
+    background-size: 95%;
+    height: 567px;
+    margin-left: -15px;
+    padding-top: 35px;
+  }
+
+  .about-section-2 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .about-section-3 {
+    padding-bottom: 95px;
+  }
+
+  .about-section-2-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .nav-scroll {
+    height: 55px;
+  }
+
+  .nav-scroll-a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .nav-scroll-a:hover {
+    color: #3b432f;
+    background-color: #f2f2e7;
+    font-weight: 400;
+  }
+
+  .nav-scroll-a.book-session-button {
+    background-color: #61ae24;
+  }
+
+  .nav-scroll-a.book-session-button:hover {
+    color: #3a422e;
+    background-color: #f2f2e7;
+    font-weight: 400;
+  }
+
+  .nav-scroll-menu-button {
+    color: #fff;
+    height: 55px;
+    padding-top: 16px;
+  }
+
+  .nav-scroll-menu-button:hover, .nav-scroll-menu-button.w--open {
+    background-color: #3b432f;
+  }
+
+  .fees-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .fees-circle-left {
+    width: 330px;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 51px;
+  }
+
+  .price-col-left {
+    padding-right: 0;
+  }
+
+  .price-col-right {
+    padding-right: 20px;
+  }
+
+  .fees-circle-right {
+    width: 330px;
+    margin-left: 0;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 50px;
+  }
+
+  .fees-and-policies {
+    margin-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .policies-section {
+    padding-top: 25px;
+    padding-bottom: 55px;
+  }
+
+  .policies-div {
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .contact-info-a:hover {
+    background-color: #0000;
+  }
+
+  .editing-button {
+    padding-left: 20px;
+  }
+
+  .booking-section {
+    padding: 60px 30px 80px;
+  }
+
+  .booking-container {
+    margin-top: 0;
+  }
+
+  .booking-p {
+    margin-top: 70px;
+  }
+
+  .booking-instructions-col-left {
+    padding-right: 34px;
+  }
+
+  .booking-h3 {
+    font-size: 24px;
+  }
+
+  .form {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+
+  .copywriting-col-right {
+    padding-left: 23px;
+    padding-right: 24px;
+  }
+
+  .cognito {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .booking-payment-section {
+    margin-bottom: 45px;
+  }
+
+  .copywriting-row {
+    padding-left: 30px;
+  }
+
+  .main-menu-icon {
+    color: #fff;
+  }
+
+  .experience-col-middle {
+    padding-top: 10px;
+  }
+
+  .reviews-section {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .admission-quote-p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .admission-block-quote {
+    margin-left: 75px;
+    padding-right: 85px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .chalkboard-copy {
+    padding-top: 70px;
+    padding-left: 87px;
+    padding-right: 86px;
+  }
+
+  .pricing-col-left {
+    padding-right: 0;
+  }
+
+  .pricing-col-right {
+    padding-right: 49px;
+  }
+
+  .disclaimer-and-privacy {
+    padding: 39px 40px 48px;
+  }
+
+  .privacy-section {
+    margin-top: 45px;
+  }
+
+  .writing-tutoring {
+    margin-top: 70px;
+  }
+
+  .academic-papers {
+    margin-top: 25px;
+  }
+
+  .mobile-menu-btn-text {
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .lit-fellow-left {
+    margin-right: 0;
+  }
+
+  .lit-fellow-right {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .lit-fellow-h1 {
+    margin-top: 60px;
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .lit-fellow-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cred-grid-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+  }
+
+  .exp-container {
+    flex-direction: row;
+  }
+
+  .exp-block {
+    max-width: 1000%;
+  }
+
+  .grid {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+  }
+
+  .unavailable-tag {
+    width: 70%;
+  }
+
+  .pricing-grid {
+    padding-top: 60px;
+  }
+
+  .book-session-covid {
+    width: 70%;
+  }
+
+  .book-session-covid.fees {
+    margin-left: 0;
+    top: 536px;
+  }
+
+  .fees-covid-div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    margin-bottom: 15px;
+    font-size: 55px;
+    line-height: 52px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 49px;
+  }
+
+  h3 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  h6, a {
+    font-size: 14px;
+  }
+
+  a:hover {
+    color: #404041;
+    background-color: #0000;
+  }
+
+  .intro-container {
+    padding-bottom: 75px;
+  }
+
+  .hero-section {
+    height: 515px;
+    padding-top: 0;
+  }
+
+  .typewriter {
+    padding-top: 70px;
+    top: 405px;
+  }
+
+  .intro-div {
+    padding-top: 30px;
+  }
+
+  .intro-subhead {
+    font-size: 28px;
+  }
+
+  .services-section {
+    padding-top: 165px;
+    padding-bottom: 70px;
+  }
+
+  .services-container-top {
+    padding-top: 0;
+  }
+
+  .service-circle-div {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: block;
+  }
+
+  .service-circle-div._2 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .services-link {
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  .services-header {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .white {
+    font-size: 40px;
+    line-height: 53px;
+  }
+
+  .footer-list {
+    margin-bottom: 30px;
+  }
+
+  .footer-about-div {
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+
+  .nav-logo-mobile-link {
+    margin-top: 33px;
+  }
+
+  .pencil-img {
+    width: 80%;
+  }
+
+  .footer-row {
+    text-align: center;
+  }
+
+  .typewriter-img {
+    max-width: 400px;
+  }
+
+  .services-hero {
+    padding: 55px 30px 80px;
+  }
+
+  .services-anchor-links {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .admission-essays-section {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .creative-writing-section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .h2-white {
+    font-size: 47px;
+    line-height: 49px;
+  }
+
+  .editing-section {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .copywriting-section {
+    padding: 10px 35px 60px;
+  }
+
+  .academic-papers-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .button {
+    margin-top: 15px;
+  }
+
+  .button.call-to-action {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 12px;
+  }
+
+  .session-h2 {
+    padding-top: 35px;
+    line-height: 35px;
+  }
+
+  .faqs-p.answers {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .faqs-section {
+    padding-top: 80px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .faqs-form {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .about-section {
+    padding-top: 55px;
+    padding-bottom: 70px;
+  }
+
+  .about-p.white {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about-row {
+    margin-top: 50px;
+  }
+
+  .headshot {
+    max-width: 60%;
+  }
+
+  .about-col-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .credentials-div {
+    margin-top: 20px;
+  }
+
+  .credentials-p {
+    font-size: 13px;
+  }
+
+  .icon-div {
+    max-width: 30%;
+    margin-bottom: 40px;
+  }
+
+  .icon-row {
+    padding-top: 25px;
+  }
+
+  .services-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .editing-proofreading-div, .grammar-div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .editing-proofreading-img {
+    margin-bottom: 40px;
+  }
+
+  .services-h6-white, .services-p {
+    font-size: 14px;
+  }
+
+  .services-bottom-img {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+
+  .services-div-1 {
+    text-align: center;
+  }
+
+  .services-div-2, .services-div-3 {
+    margin-top: 20px;
+  }
+
+  .services-bottom-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .admission-essays-intro-p {
+    background-size: 100%;
+    height: 460px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .editing-proofreading-p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+
+  .about-section-2 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .about-section-3 {
+    padding-bottom: 20px;
+  }
+
+  .about-section-2-container {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .services-bottom-col-1 {
+    text-align: center;
+  }
+
+  .services-bottom-col-2 {
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .fees-section {
+    padding-top: 55px;
+  }
+
+  .fees-circle-left {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .price-col-right {
+    margin-top: 35px;
+    padding-right: 0;
+  }
+
+  .price-row {
+    margin-top: 55px;
+  }
+
+  .fees-circle-right {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px 51px 90px 47px;
+  }
+
+  .fees-and-policies {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .policies-section {
+    padding-top: 30px;
+  }
+
+  .policies-div {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+
+  .policies-p {
+    margin-top: 15px;
+  }
+
+  .headshot-div {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .about-container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .services-h1 {
+    margin-bottom: 50px;
+    font-size: 65px;
+  }
+
+  .fees-and-policies-button {
+    justify-content: center;
+  }
+
+  .editing-button {
+    padding-left: 0;
+  }
+
+  .everything-else-button {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .booking-section {
+    padding-bottom: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .about-button {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .booking-instructions-col-left {
+    padding-left: 0;
+  }
+
+  .booking-instructions-col-right {
+    margin-top: 18px;
+    padding-left: 0;
+  }
+
+  .booking-a {
+    font-size: 16px;
+  }
+
+  .form {
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+
+  .copywriting-col-left {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .copywriting-col-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .copywriting-row {
+    padding-left: 0;
+  }
+
+  .experience-1 {
+    border-bottom: 1px solid #000;
+    border-right-style: none;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 0;
+    padding: 20px 0;
+    display: flex;
+  }
+
+  .experience-1.v3 {
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+  }
+
+  .experience-2, .experience-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .experience-number-1 {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .experience-col-left {
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .experience-col-middle, .experience-col-top, .experience-col-bottom {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .reviews-section {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .admission-quote-p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .admission-block-quote {
+    margin-left: 40px;
+    padding-right: 54px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .chalkboard-copy {
+    padding-top: 51px;
+    padding-left: 43px;
+    padding-right: 51px;
+  }
+
+  .booking-h3-green {
+    color: #32742c;
+    font-size: 22px;
+  }
+
+  .correspondence-time-section {
+    margin-top: 50px;
+  }
+
+  .in-person-session {
+    margin-top: 60px;
+  }
+
+  .pricing-col-left {
+    padding-left: 0;
+  }
+
+  .pricing-h1 {
+    text-align: left;
+  }
+
+  .payment-col-left {
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+
+  .payment-col-right {
+    padding-left: 0;
+  }
+
+  .pricing-col-right {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .policies-and-cancellation-col-right {
+    margin-top: 25px;
+  }
+
+  .discount-a {
+    font-size: 16px;
+  }
+
+  .writing-tutoring {
+    margin-top: 65px;
+  }
+
+  .payment-policies-a, .cancellations-a {
+    font-size: 16px;
+  }
+
+  .lit-fellow-left {
+    width: 35%;
+  }
+
+  .lit-fellow-h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .row, .row-2, .row-3 {
+    flex-direction: column;
+  }
+
+  .new-cred-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-div-container {
+    align-self: center;
+    max-width: 100%;
+  }
+
+  .cred-grid-wrapper {
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+  }
+
+  .exp-container {
+    flex-flow: column wrap;
+    margin-top: 70px;
+  }
+
+  .exp-block {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .unavailable-tag {
+    width: 50%;
+  }
+
+  .pricing-grid {
+    flex-direction: column;
+    padding-top: 0;
+    display: flex;
+  }
+
+  .book-session-payment {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .book-session-payment-div {
+    margin-top: 30px;
+  }
+
+  .book-session-covid {
+    width: 50%;
+  }
+
+  .book-session-covid.fees {
+    margin-top: 0;
+    top: 793px;
+  }
+
+  .fees-covid-div {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 45px;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  .intro-container {
+    padding-top: 21px;
+    padding-bottom: 0;
+  }
+
+  .top-bar {
+    padding-top: 156px;
+  }
+
+  .hero-section {
+    height: 485px;
+  }
+
+  .typewriter {
+    padding-top: 0;
+    top: 500px;
+  }
+
+  .intro-div {
+    padding-top: 0;
+  }
+
+  .intro-subhead {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .services-section {
+    padding-top: 80px;
+  }
+
+  .services-container-top {
+    padding-top: 35px;
+  }
+
+  .white {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+
+  .footer-about-p {
+    padding-left: 0;
+  }
+
+  .nav-link-open:hover {
+    font-weight: 400;
+  }
+
+  .nav-link-open.book-session-button.w--current {
+    color: #fff;
+  }
+
+  .nav-link-open.book-session-button.w--current:hover {
+    color: #404041;
+    font-weight: 400;
+  }
+
+  .nav-logo-mobile-link {
+    margin-top: 25px;
+  }
+
+  .logo-mobile-img {
+    width: 150px;
+  }
+
+  .typewriter-img {
+    max-width: 280px;
+  }
+
+  .services-hero {
+    padding: 30px 28px 60px;
+  }
+
+  .services-anchor-links {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .services-intro-p {
+    padding-top: 0;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .admission-essays-section {
+    padding: 0 27px 30px;
+  }
+
+  .creative-writing-section {
+    padding-top: 20px;
+  }
+
+  .h2-white {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .editing-section {
+    padding-top: 35px;
+    padding-bottom: 65px;
+  }
+
+  .sessions-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .anchor-links {
+    font-size: 13px;
+  }
+
+  .copywriting-section {
+    padding: 20px 27px 70px;
+  }
+
+  .academic-papers-section {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  .button {
+    margin-top: 15px;
+  }
+
+  .button.about, .button.call-to-action {
+    width: 100%;
+  }
+
+  .session-h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .faqs-h1 {
+    margin-bottom: 40px;
+    font-size: 80px;
+  }
+
+  .faqs-p.answers {
+    font-size: 15px;
+  }
+
+  .faqs-section {
+    padding: 60px 23px;
+  }
+
+  .faqs-questions-a {
+    font-size: 14px;
+  }
+
+  .footer-contact-section {
+    padding-top: 30px;
+    padding-bottom: 65px;
+  }
+
+  .faqs-form {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .submit-button.payment {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .submit-button.review-button {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .submit-button.session {
+    text-align: center;
+    width: 100%;
+  }
+
+  .submit-button.purchase-add-on {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .faqs-form-subhead {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .back-to-top {
+    width: 35px;
+    top: 16px;
+  }
+
+  .desk-with-books-img {
+    margin-top: 85px;
+  }
+
+  .admission-h3 {
+    margin-top: 35px;
+  }
+
+  .about-section {
+    padding-top: 30px;
+  }
+
+  .about-p, .about-p.white {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .about-row {
+    margin-top: 40px;
+  }
+
+  .about-box-left {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .about-box-right {
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .headshot {
+    max-width: 90%;
+  }
+
+  .about-col-right {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-col-left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .services-list {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .gray {
+    font-size: 18px;
+  }
+
+  .credentials-div {
+    margin-top: 0;
+  }
+
+  .credentials-p {
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 13px;
+  }
+
+  .icon-div {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .icon-row {
+    padding-top: 0;
+  }
+
+  .services-container {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .services-h2 {
+    line-height: 26px;
+  }
+
+  .editing-proofreading-div, .grammar-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .services-bottom-row {
+    margin-top: 45px;
+  }
+
+  .services-bottom-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .admission-essays-intro-p {
+    background-color: #404041;
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+    border-radius: 10px;
+    height: 580px;
+    margin-bottom: 45px;
+    padding: 25px 15px 25px 20px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .editing-proofreading-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .about-section-2 {
+    padding-top: 25px;
+    padding-bottom: 55px;
+  }
+
+  .about-section-3 {
+    padding-bottom: 40px;
+  }
+
+  .about-section-2-container {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  .fees-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .fees-circle-left {
+    text-align: center;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 53px 51px 54px 27px;
+  }
+
+  .price-header {
+    margin-bottom: 40px;
+    padding-left: 9px;
+    font-size: 77px;
+  }
+
+  .price-p {
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .price-col-left {
+    padding: 15px 15px 15px 10px;
+  }
+
+  .price-col-right {
+    margin-top: 0;
+    padding: 15px 15px 15px 10px;
+  }
+
+  .price-row {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .price-p-small {
+    padding-left: 25px;
+    font-size: 13px;
+  }
+
+  .fees-circle-right {
+    width: 270px;
+    padding-top: 45px;
+    padding-bottom: 43px;
+    padding-left: 22px;
+  }
+
+  .fees-and-policies {
+    margin-top: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .policies-div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .policies-p-small {
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .policies-p {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .fees-container, .about-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .services-h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+
+  .fees-and-policies-button {
+    text-align: center;
+  }
+
+  .contact-info-a {
+    clear: left;
+    margin-bottom: 25px;
+    font-size: 14px;
+    display: block;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contact-icons {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .admission-essay-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .academic-papers-button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .editing-button {
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .everything-else-button {
+    margin-bottom: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .booking-section {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .booking-p {
+    margin-top: 45px;
+  }
+
+  .about-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .discount-div {
+    padding: 5px 22px 15px;
+  }
+
+  .discount-p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .booking-instructions {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .booking-instructions-col-left {
+    padding-top: 20px;
+    padding-right: 0;
+  }
+
+  .booking-h3 {
+    font-size: 21px;
+  }
+
+  .form-list {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mouse-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .booking-h4 {
+    padding-top: 0;
+  }
+
+  .booking-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .booking-instructions-col-right {
+    padding-right: 0;
+  }
+
+  .booking-a {
+    font-size: 15px;
+  }
+
+  .discount-h2 {
+    line-height: 26px;
+  }
+
+  .form {
+    padding-top: 0;
+  }
+
+  .copywriting-col-left {
+    margin-bottom: 30px;
+  }
+
+  .booking-img {
+    margin-top: 45px;
+  }
+
+  .calendar-img {
+    width: 225px;
+  }
+
+  .booking-payment-section {
+    margin-bottom: 45px;
+    padding-bottom: 50px;
+  }
+
+  .copywriting-row {
+    margin-top: 25px;
+  }
+
+  .copywriting-button {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .experience-col-middle {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+
+  .experience-col-top {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .experience-col-bottom {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
+  .reviews-section {
+    padding: 18px 27px 50px;
+  }
+
+  .reviews-p {
+    font-size: 15px;
+  }
+
+  .reviews {
+    padding-top: 20px;
+  }
+
+  .admission-quote-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .admission-block-quote {
+    margin-left: 0;
+    padding-left: 16px;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .chalkboard-copy {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .correspondence-time-section {
+    margin-top: 0;
+  }
+
+  .in-person-session {
+    margin-top: 35px;
+  }
+
+  .pricing-h1 {
+    font-size: 28px;
+  }
+
+  .review-payment-section {
+    padding-bottom: 50px;
+  }
+
+  .payment-button {
+    margin-top: 30px;
+  }
+
+  .pricing-col-right {
+    margin-top: 75px;
+    padding-right: 0;
+  }
+
+  .review-price-h2 {
+    line-height: 26px;
+  }
+
+  .disclaimer-and-privacy {
+    padding: 20px 35px 40px;
+  }
+
+  .privacy-section {
+    margin-top: 35px;
+  }
+
+  .disclaimer-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .discount-a {
+    font-size: 15px;
+  }
+
+  .writing-tutoring {
+    margin-top: 50px;
+  }
+
+  .writing-tutoring-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .payment-policies-a, .cancellations-a {
+    font-size: 15px;
+  }
+
+  .lit-fellow-left {
+    width: 45%;
+  }
+
+  .faq-question-text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .job-div-container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cred-grid-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-block {
+    max-width: 100%;
+  }
+
+  .unavailable-tag {
+    width: 100%;
+  }
+
+  .pricing-grid {
+    padding-top: 0;
+  }
+
+  .pricing-div-block {
+    margin-top: 15px;
+  }
+
+  .book-session-payment-div {
+    margin-top: 20px;
+  }
+
+  .book-session-covid.fees {
+    margin-left: 0;
+    top: 782px;
+    left: 26.5px;
+  }
+
+  .fees-covid-div {
+    flex-direction: column;
+  }
+}
+
+#w-node-_916def11-edc3-dce9-9650-04f1664dbee8-5ad8d754 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-_198b09f2-cfc8-c6f5-3a8b-5504b8fccb90-49e705b5, #w-node-_2f222fb3-a3e5-c267-cf18-2c6cb8a1e2dd-49e705b5, #w-node-cae58ee8-9890-4aab-ec14-a980c24fc365-49e705b5, #w-node-_5b23a0eb-05ef-d6f4-5d64-a4bc4897db81-49e705b5 {
+    align-self: start;
+  }
+}
+
+
